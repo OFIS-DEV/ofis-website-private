@@ -102,7 +102,7 @@ const members = [
   },
   {
     name: "Christel Poorter",
-    role: { nl: "HR & Accountmanager", en: "HR & Account Manager" },
+    role: { nl: "Accountmanager / HR", en: "Account Manager / HR" },
     email: "c.poorter@orchestra-contact.com",
     phone: "070-2051186",
     photo: christelPoorterPhoto,
