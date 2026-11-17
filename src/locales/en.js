@@ -228,8 +228,8 @@ export default {
     regulatorsSubtitle:
       "Orchestra operates under the supervision of the relevant regulatory authorities, providing your wealth with the protection it deserves.",
 
-    teamEyebrow: "Our Team",
-    teamTitle: "The people behind Orchestra",
+    teamEyebrow: "Our People",
+    teamTitle: "Meet our team",
     teamSubtitle:
       "A team of experienced specialists committed to keeping your wealth under control.",
   },

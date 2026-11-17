@@ -59,7 +59,7 @@ const members = [
     name: "Pien Verweij",
     role: { nl: "Accountmanager / Manager HR", en: "Account Manager / HR Manager" },
     email: "p.verweij@orchestra-contact.com",
-    phone: "06-46761861",
+    phone: "070-2197215",
     linkedin: "https://www.linkedin.com/in/pienverweij",
     photo: pienVerweijPhoto,
   },

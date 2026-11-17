@@ -227,8 +227,8 @@ export default {
     regulatorsSubtitle:
       "Orchestra opereert onder toezicht van de relevante toezichthouders, wat uw vermogen de bescherming biedt die het verdient.",
 
-    teamEyebrow: "Ons Team",
-    teamTitle: "De mensen achter Orchestra",
+    teamEyebrow: "Onze Mensen",
+    teamTitle: "Maak kennis met ons team",
     teamSubtitle:
       "Een team van ervaren specialisten dat zich inzet voor het beheerst houden van uw vermogen.",
   },
