@@ -143,8 +143,30 @@ export default function MobileMenu({ open, onClose }) {
                 </div>
               ))}
 
+              {/* Sister site switch */}
+              <a
+                href={meta.otherSite.url}
+                className="group mt-6 flex items-center gap-1.5 py-2 text-sm font-medium text-navy-200 hover:text-white transition-colors duration-200"
+              >
+                {meta.otherSite.label}
+                <svg
+                  className="w-3.5 h-3.5 transition-transform duration-200 ease-out group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M7 17L17 7M9 7h8v8"
+                  />
+                </svg>
+              </a>
+
               {/* MyOrchestra CTA */}
-              <div className="mt-8">
+              <div className="mt-6">
                 <Link
                   to="/myorchestra"
                   onClick={onClose}

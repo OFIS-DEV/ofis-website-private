@@ -162,6 +162,15 @@ export default function Footer() {
             <p className="text-center text-xs text-navy-500">
               &copy; {new Date().getFullYear()} {meta.fullName}.{" "}
               {t("footer", "allRightsReserved")}
+              <span className="mx-2" aria-hidden="true">
+                &middot;
+              </span>
+              <a
+                href={meta.otherSite.url}
+                className="text-navy-300 hover:text-white transition-colors duration-200"
+              >
+                Orchestra {meta.otherSite.label}
+              </a>
             </p>
           </div>
         </div>

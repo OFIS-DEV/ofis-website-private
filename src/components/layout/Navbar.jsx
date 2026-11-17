@@ -63,7 +63,7 @@ export default function Navbar() {
                 >
                   <Link
                     to={item.path}
-                    className={`px-4 py-2 text-sm font-medium tracking-wide transition-colors duration-200 relative group ${
+                    className={`px-3 py-2 text-sm font-medium tracking-wide xl:whitespace-nowrap transition-colors duration-200 relative group ${
                       useTransparent
                         ? "text-white/90 hover:text-white"
                         : "text-warm-gray-600 hover:text-navy-900"
@@ -93,7 +93,7 @@ export default function Navbar() {
                       </svg>
                     )}
                     <span
-                      className={`absolute bottom-0 left-4 right-4 h-0.5 bg-gold-700 transition-transform duration-200 origin-left ${
+                      className={`absolute bottom-0 left-3 right-3 h-0.5 bg-gold-700 transition-transform duration-200 origin-left ${
                         location.pathname === item.path ||
                         location.pathname.startsWith(item.path + "/")
                           ? "scale-x-100"
@@ -114,6 +114,31 @@ export default function Navbar() {
 
             {/* Right side */}
             <div className="hidden lg:flex items-center gap-4">
+              <a
+                href={meta.otherSite.url}
+                aria-label={`Orchestra ${meta.otherSite.label}`}
+                className={`group hidden xl:flex items-center gap-1 text-sm font-medium tracking-wide whitespace-nowrap transition-colors duration-200 ${
+                  useTransparent
+                    ? "text-white/90 hover:text-white"
+                    : "text-warm-gray-600 hover:text-navy-900"
+                }`}
+              >
+                {meta.otherSite.navLabel}
+                <svg
+                  className="w-3.5 h-3.5 transition-transform duration-200 ease-out group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M7 17L17 7M9 7h8v8"
+                  />
+                </svg>
+              </a>
               <LanguageToggle transparent={useTransparent} />
               <Link
                 to="/myorchestra"

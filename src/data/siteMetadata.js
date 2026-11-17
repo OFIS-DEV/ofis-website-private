@@ -10,6 +10,13 @@ const shared = {
   email: "contact@orchestra-contact.com",
   linkedin: "https://www.linkedin.com/company/orchestra-familycharityoffice/",
   myOrchestra: "https://my-orchestra.com/",
+  // Sister site, shown as switch link in navbar and mobile menu
+  otherSite: {
+    label: "Charity Office",
+    // Short form for desktop navbar, full label does not fit next to the menu
+    navLabel: "Charity",
+    url: "https://www.orchestra-charityoffice.com/",
+  },
 };
 
 const data = {
