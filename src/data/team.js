@@ -3,7 +3,6 @@ import kilianVanBuurenPhoto from "../assets/images/team/kilian-van-buuren.jpg";
 import arjanVanGulickPhoto from "../assets/images/team/arjan-van-gulick.jpg";
 import tanjaHaremakerPhoto from "../assets/images/team/tanja-haremaker.jpg";
 import wouterHofhuisPhoto from "../assets/images/team/wouter-hofhuis.jpg";
-import kaiVanKampenPhoto from "../assets/images/team/kai-van-kampen.jpg";
 import davePricePhoto from "../assets/images/team/dave-price.jpg";
 import pienVerweijPhoto from "../assets/images/team/pien-verweij.jpg";
 import emmaVanSteijnPhoto from "../assets/images/team/emma-van-steijn.jpg";
@@ -88,12 +87,10 @@ const members = [
     photo: emmaVanSteijnPhoto,
   },
   {
-    name: "Kai van Kampen",
-    role: { nl: "Junior Accountmanager", en: "Junior Account Manager" },
-    email: "k.vankampen@orchestra-contact.com",
-    phone: "070-2051184",
-    linkedin: "https://www.linkedin.com/in/kai-van-kampen-9126591a6/",
-    photo: kaiVanKampenPhoto,
+    name: "Ester Elstgeest",
+    role: { nl: "Accountmanager", en: "Account Manager" },
+    phone: "070-2051187",
+    photo: null,
   },
   {
     name: "Arvind Bisoen",
@@ -105,7 +102,7 @@ const members = [
   },
   {
     name: "Christel Poorter",
-    role: { nl: "HR & Administratie medewerker", en: "HR & Administration Employee" },
+    role: { nl: "Accountmanager", en: "Account Manager" },
     email: "c.poorter@orchestra-contact.com",
     phone: "070-2051186",
     photo: christelPoorterPhoto,
