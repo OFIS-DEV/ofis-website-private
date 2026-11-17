@@ -6,6 +6,7 @@ import wouterHofhuisPhoto from "../assets/images/team/wouter-hofhuis.jpg";
 import davePricePhoto from "../assets/images/team/dave-price.jpg";
 import pienVerweijPhoto from "../assets/images/team/pien-verweij.jpg";
 import emmaVanSteijnPhoto from "../assets/images/team/emma-van-steijn.jpg";
+import esterElstgeestPhoto from "../assets/images/team/ester-elstgeest.jpg";
 import ianIjmkersPhoto from "../assets/images/team/ian-ijmkers.jpg";
 import arvindBisoenPhoto from "../assets/images/team/arvind-bisoen.jpg";
 import christelPoorterPhoto from "../assets/images/team/christel-poorter.jpg";
@@ -89,8 +90,9 @@ const members = [
   {
     name: "Ester Elstgeest",
     role: { nl: "Accountmanager", en: "Account Manager" },
+    email: "e.elstgeest@orchestra-contact.com",
     phone: "070-2051187",
-    photo: null,
+    photo: esterElstgeestPhoto,
   },
   {
     name: "Arvind Bisoen",
