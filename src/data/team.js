@@ -51,7 +51,7 @@ const members = [
     name: "Tanja Haremaker",
     role: { nl: "Controller / Accountmanager", en: "Controller / Account Manager" },
     email: "t.haremaker@orchestra-contact.com",
-    phone: "06-51990527",
+    phone: "070-2197219",
     linkedin: "https://www.linkedin.com/in/tanjaharemaker/",
     photo: tanjaHaremakerPhoto,
   },
@@ -102,7 +102,7 @@ const members = [
   },
   {
     name: "Christel Poorter",
-    role: { nl: "Accountmanager", en: "Account Manager" },
+    role: { nl: "HR & Accountmanager", en: "HR & Account Manager" },
     email: "c.poorter@orchestra-contact.com",
     phone: "070-2051186",
     photo: christelPoorterPhoto,
